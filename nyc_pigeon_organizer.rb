@@ -1,5 +1,7 @@
 def nyc_pigeon_organizer(data)
+  #makes new hash
   new_hash = {}
+  #iterate through
   data.each do |facts, values|
     values.each do |value, pigeon_name|
       pigeon_name.each do |pigeon|
