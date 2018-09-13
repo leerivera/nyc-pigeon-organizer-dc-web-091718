@@ -1,10 +1,13 @@
 def nyc_pigeon_organizer(data)
   #makes new hash
   new_hash = {}
-  #loops facts with values
+  #makes new hash
+  
   data.each do |facts, values|
-    
+    #loops facts with values
+     
     values.each do |value, pigeon_name|
+      #loops 
       pigeon_name.each do |pigeon|
          new_hash[pigeon] ||= {} 
         new_hash[pigeon][facts] ||= [] 
